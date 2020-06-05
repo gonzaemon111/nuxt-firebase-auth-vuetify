@@ -17,9 +17,12 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@toast-ui/vue-editor": "^2.0.1",
+    "codemirror": "^5.52.2",
     "core-js": "2.6.5",
     "firebase": "^7.13.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "tui-editor": "^1.4.10"
   },
   "devDependencies": {
     "@mdi/font": "^5.0.45",
