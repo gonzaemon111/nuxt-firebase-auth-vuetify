@@ -37,6 +37,9 @@ export default {
   ** Global CSS
   */
   css: [
+    'tui-editor/dist/tui-editor.css',
+    'tui-editor/dist/tui-editor-contents.css',
+    'codemirror/lib/codemirror.css'
   ],
   /*
   ** Plugins to load before mounting the App
