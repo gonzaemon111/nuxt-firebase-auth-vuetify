@@ -128,7 +128,7 @@ export default {
     console.log(`this.$store.getters : ${JSON.stringify(this.$store.getters['users/isAuthenticated'])}`);
     if (!this.$store.getters['users/isAuthenticated']) {
       console.log('ここだよ');
-      this.$router.push('/login')
+      // this.$router.push('/login')
     }
   },
 }
