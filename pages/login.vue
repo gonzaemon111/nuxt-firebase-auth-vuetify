@@ -73,7 +73,7 @@ export default {
       .then(user => {
         // ログインしたら飛ぶページを指定
         console.log(`user : ${JSON.stringify(user)}`);
-        this.$router.push('/')
+        this.$router.push('/editor')
       }).catch((error) => {
         alert(error)
       });
